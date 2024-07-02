@@ -12,8 +12,8 @@ import ar.edu.ort.p1.util.Consola;
  */
 public class Ejercicio01 {
 	public static void main(String[] args) {
-		
-		int numero = Consola.leerEntero("Introduce un numero entero:");		
+
+		int numero = Consola.leerEntero("Introduce un numero entero:");
 		int esMultiploDeDos = numero % 2;
 		int esMultiploDeTres = numero % 3;
 
@@ -23,10 +23,9 @@ public class Ejercicio01 {
 			System.out.println("Solo es multiplo de dos");
 		} else if (esMultiploDeTres == 0) {
 			System.out.println("Solo es multiplo de tres");
-	} else {
-		System.out.println("No es multiplo de dos ni de tres");
-	}
-
+		} else {
+			System.out.println("No es multiplo de dos ni de tres");
+		}
 
 	}
 }
