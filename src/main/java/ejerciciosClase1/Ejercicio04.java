@@ -1,6 +1,6 @@
 package ejerciciosClase1;
 
-import ar.edu.ort.p1.util.Consola;
+import com.github.sanchezih.util.io.Consola;
 
 /**
  * Programa que comprueba si un año es bisiesto. Un año es bisiesto si es

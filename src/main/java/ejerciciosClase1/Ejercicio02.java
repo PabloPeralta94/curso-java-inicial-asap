@@ -1,6 +1,6 @@
 package ejerciciosClase1;
 
-import ar.edu.ort.p1.util.Consola;
+import com.github.sanchezih.util.io.Consola;
 
 /**
  * El programa pide por teclado la fecha de nacimiento de una persona (día, mes,
